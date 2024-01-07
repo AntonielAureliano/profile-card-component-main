@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-dark-cyan: hsl(185, 75%, 39%);
+    --primary-very-dark-desaturated-blu: hsl(229, 23%, 23%);
+    --primary-dark-grayish-blue: hsl(227, 10%, 46%);
+
+    --neutral-dark-gray: hsl(0, 0%, 59%);
+    
+    --font-family-default: 'Kumbh Sans', sans-serif;
+
+    --font-size-default: 1.125rem; 
+}
+
+body {
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-default);
+}
