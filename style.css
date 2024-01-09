@@ -10,9 +10,10 @@
     --primary-dark-grayish-blue: hsl(227, 10%, 46%);
     
 
-    --neutral-dark-gray: hsl(0, 0%, 59%);
-    
+    --neutral-dark-gray: hsl(0, 0%, 59%);    
     --neutral-white: hsl(0,0%,100%);
+    --neutral-link: hsl(228, 45%, 44%);
+
     --font-family-default: 'Kumbh Sans', sans-serif;
 
     --font-size-default: 1.125rem; 
@@ -43,6 +44,7 @@ body {
     border-radius: 15px 15px 0 0;
 }
 
+/*Image users*/
 .image-users {
     position: absolute;
     left: 120px;
@@ -54,11 +56,12 @@ body {
     border: solid 5px var(--neutral-white); 
 }
 
+/*Users*/
 .users {
     border-bottom: solid 1px var(--neutral-dark-gray);
     display: grid;
     gap: 10px;
-    padding: 70px 0 30px 0 ;
+    padding: 70px 0 20px 0 ;
 }
 
 .users-name {
@@ -68,8 +71,39 @@ body {
 .users-name span {
     color: var(--neutral-dark-gray);
     font-weight: 400;
+    margin-left: 5px;
 }
 
 .users p:last-child {
     color: var(--neutral-dark-gray);
+    font-size: 1rem;
+}
+
+/*Numbers*/
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.numbers p {
+    font-weight: 700;    
+}
+
+.numbers span {
+    color: var(--neutral-dark-gray);
+    font-size: .9375rem;
+}
+
+/*Footer*/
+
+.attribution {
+    font-size: .6875rem; 
+    margin-top: 30px;
+    text-align: center; 
+}
+
+.attribution a {
+    color: var(--neutral-link); 
 }
