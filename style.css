@@ -23,7 +23,7 @@ body {
     background-color: var(--primary-dark-cyan);
     background-image: url('./images/bg-pattern-top.svg'),url('./images/bg-pattern-bottom.svg');
     background-repeat: no-repeat;
-    background-position: 1% 800%, 110% -600%;
+    background-position: -5% 800%, 110% -600%;
     display: grid;
     font-family: var(--font-family-default);
     font-size: var(--font-size-default);
